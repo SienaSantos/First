@@ -1,0 +1,100 @@
+li 
+{   
+	float: left;
+	background-color : #1084D1;
+	list-style : none;
+}
+ul
+{ 	
+	padding-top: none;
+	padding : 0 !important;
+	margin: 0 !important;
+}
+a 
+{   
+	display: inline-block;
+	width: 100px;
+	background-color : #1084D1;
+}
+p
+{	margin : 0 !important; }
+
+#footer
+{
+
+	padding : 1%;
+	text-align : center ;
+	background-color : #1084D1
+}
+#tfnewsearch
+{
+	float:right;
+	padding:9.3px;
+	background-color : #1084D1;	
+	border-left : 2px solid #62B0DF	;
+	border-radius: 10px 10px 0px 0px;
+	border-left-style : 
+	
+}
+
+#tftextinput{
+	padding: 1px;
+	font-size : 14;
+}
+.tfbutton{
+	padding: none;
+	background-color : transparent;
+	
+}
+.navItem {
+	
+	list-style: none;
+	padding: 10px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:17px;
+	text-decoration : none;
+	list-style-type: none;
+	text-align : center;
+	border-right : 1px solid #62B0DF;
+	border-radius: 10px 10px 0px 0px;
+}
+.space
+{padding: 18px;
+color:#1084D1}
+
+.content{
+	display : inline-flex;
+	size : 900px;
+}
+.content2{
+	display : flex;
+	size : 900px;
+}
+.row1{
+
+	padding : 50px;
+	border : 1px;
+	border-color : black;	
+    border-style: solid;
+	width : 150px;
+		
+}
+.row2{
+
+	padding : 60px;
+	border : 1px;
+	border-color : black;	
+    border-style: solid;
+	width : 290px;
+
+
+}
+.row3{
+
+	padding : 50px;
+	border : 1px;
+	border-color : black;
+	border-style: solid;
+	width : 150px;
+}
