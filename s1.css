@@ -50,8 +50,15 @@ float : center;
 }
 .tfbutton{
 	padding: none;
-	background-color : transparent;
-	
+	background-color : #0873BB;
+	border-style : hidden;
+	border-left : 1px solid #62B0DF;
+	border-radius : 10px 0px 10px 10px;
+	height : 20px;
+	color : white;
+}
+.tfbutton:hover{
+	background-color : #00A3EE;
 }
 .navItem {
 	
@@ -65,6 +72,9 @@ float : center;
 	text-align : center;
 	border-right : 1px solid #62B0DF;
 	border-radius: 10px 10px 0px 0px;
+}
+.navItem:hover{
+	background-color : #00A3EE;
 }
 .Buttonr2{ 
 	list-style: none;
@@ -179,7 +189,7 @@ font-family: Segoe UI;
 	border : 1px;
 	border-color : #62B0DF;	
     border-style: solid;
-	width : 300px;
+	width : 320px;
 	background-color : #f1f1f1;
 	margin : 1 px;		
 }
@@ -208,11 +218,17 @@ font-family: Segoe UI;
 	border-color : #62B0DF;	
     border-style: solid;
 	width : 690px;
-	height:400px;
+	height:410px;
 	margin : 1 px;
 }
 .panel1{
 	display : flex;
+}
+.panel2{
+	height :210px;
+}
+.panel3{
+	display : block;
 }
 #r5Header{
 
@@ -246,17 +262,28 @@ font-family: Segoe UI;
 }
 .rowrow3{
 	padding: 10px;
-	width :665px;
+	width :660px;
 	height : 180px;
-	border-color : #62B0DF;	
+	border-color : #f1f1f1;	
     border-style: solid;
 }
-
 .row6{
-
-	padding : 50px;
 	border : 1px;
 	border-color : #62B0DF;
 	border-style: solid;
-	width : 220px;
+	background-color : #F1F1F1;
+	width : 340px;
+}
+.rowrow11{
+	padding: 10px;
+	width :280px;
+	height : 168px;
+	border-color : #f1f1f1;	
+    border-style: solid;
+}
+.rowrow22{
+	padding: 10px;
+	width :280px;
+	border-color : #f1f1f1;	
+    border-style: solid;
 }
